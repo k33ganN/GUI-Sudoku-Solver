@@ -3,22 +3,22 @@
 A fully functional Sudoku game built with **Python and Tkinter**, featuring:
 
 - ✅ Manual puzzle input
-- 📄 File upload support for puzzle loading
-- 🧠 Sudoku solving logic with backtracking
-- 🔴 Solution cells shown in red for clarity
-- 💡 Extendable architecture (supports puzzle generation, difficulty settings, timer, and more)
+- ✅ File upload support for puzzle loading
+- ✅ Sudoku solving logic with backtracking
+- ✅ Solution cells shown in red for clarity
+- ✅ Extendable architecture (supports puzzle generation, difficulty settings, timer, and more)
 
 ---
 
-## 📂 Features
+##  Features
 
-### 🎮 Core Features
+###  Core Features
 - Enter Sudoku puzzles manually
 - Upload `.txt` files containing Sudoku puzzles
 - Solve puzzles using a recursive backtracking algorithm
 - Visual feedback for solution cells (red highlights)
 
-### 🧱 Architecture
+###  Architecture
 - **Modular design**: GUI, solving logic, and file handling are split into separate files
 - Easy to extend for future features like:
   - Random puzzle generation
@@ -28,12 +28,15 @@ A fully functional Sudoku game built with **Python and Tkinter**, featuring:
 
 ---
 
-## 🔧 Requirements
+##  Requirements
 
 - Python 3.10+
 - Tkinter (comes pre-installed with most Python distributions)
 
 ## Format
+  - Each line = one Sudoku row
+  - Use 0 for blank cells
+
   ```
   530070000
   600195000
@@ -46,9 +49,3 @@ A fully functional Sudoku game built with **Python and Tkinter**, featuring:
   000080079
 
     
-
--Each line = one Sudoku row
-
--Use 0 for blank cells
-
-
